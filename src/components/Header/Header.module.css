@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: space-around;
     position: sticky;
-    top: 0; /* ← ДОБАВЬ ЭТУ СТРОКУ */
-    z-index: 1000; /* ← И ЭТУ ДЛЯ ПОВЕРХ ДРУГИХ ЭЛЕМЕНТОВ */
-    padding: 15px 0; /* ← ДОБАВЬ PADDING */
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0;
     width: 100%;
     border-radius: 10px;
 }
