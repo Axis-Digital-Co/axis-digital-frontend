@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+  font-family: 'Chaney Ultraextended';
+  src: url('../assets/fonts/chaney-ultraextended-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/chaney-ultraextended-webfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/chaney-ultraextended-webfont.woff2') format('woff2'), /* Современные браузеры */
+       url('../assets/fonts/chaney-ultraextended-webfont.woff') format('woff'),  /* Старые браузеры */
+       url('../assets//fonts/chaney-ultraextended-webfont.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Chaney Ultraextended';
+}
+
+
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 72px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 140px;
+  }
+}
+
+.section {
+  padding: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section {
+    padding: 120px 0;
+  }
+}
