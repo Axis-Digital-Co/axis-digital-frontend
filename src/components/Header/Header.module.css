@@ -11,13 +11,14 @@
 }
 
 .title {
-  font-family: 'Chaney Ultraextended', 'Ubuntu', sans-serif;
+  font-family: 'Chaney Ultraextended', sans-serif;
   width: 205px;
   height: 45px;
   font-weight: 700;
-  font-style: Bold;
-  font-size: 32px;
+  font-size: 19px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .list {
