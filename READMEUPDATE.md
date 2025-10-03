@@ -3,7 +3,7 @@
 
 Проверяй версию Node перед апдейтом зависимостей:
 
-node -v
+``node -v``
 
 
 Должно быть ≥ 22.12.0 (или актуальная версия, совместимая с Vite).
@@ -12,23 +12,23 @@ node -v
 
 Сначала проверяем устаревшие пакеты:
 
-npm outdated
+``npm outdated``
 
 
 Обновляем безопасно (patch + minor):
 
-npm update
+``npm update``
 
 
 Обновляем до последних версий (major) только после проверки совместимости:
 
-npm install <package>@latest --save-dev
+``npm install <package>@latest --save-dev``
 
 3️⃣ Проверка TypeScript
 
 После обновления TypeScript проверяй типизацию:
 
-npx tsc --noEmit
+``npx tsc --noEmit``
 
 
 Исправляй ошибки типизации, если появляются после major обновлений.
@@ -37,7 +37,7 @@ npx tsc --noEmit
 
 После обновления плагинов ESLint (особенно react-hooks) запускай линтинг:
 
-npx eslint src --ext .ts,.tsx
+``npx eslint src --ext .ts,.tsx``
 
 
 Если новые правила требуют изменений, правим .eslintrc.
@@ -46,12 +46,12 @@ npx eslint src --ext .ts,.tsx
 
 Проверяем сборку продакшн-бандла:
 
-npm run build
+``npm run build``
 
 
 Проверяем локальный dev-сервер:
 
-npm run dev
+``npm run dev``
 
 
 Убедиться, что нет ошибок и пути к файлам (шрифты, CSS, изображения) работают корректно.
@@ -60,14 +60,16 @@ npm run dev
 
 Если возникают странные ошибки после обновлений:
 
+``
 rm -rf node_modules package-lock.json
 npm install
+``
 
 7️⃣ Регулярная проверка
 
 Раз в месяц или перед крупными апдейтами:
 
-npm outdated
+``npm outdated``
 
 
 Сразу обновляй patch/minor версии, проверяй сборку и dev-сервер.
