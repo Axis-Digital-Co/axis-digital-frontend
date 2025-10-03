@@ -1,23 +1,26 @@
-.container {
+.headerContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 100%;
   border-radius: 10px;
 }
 
 .title {
-  font-family: 'Chaney Ultraextended', 'Ubuntu', sans-serif;
+  font-family: 'Chaney Ultraextended', sans-serif;
   width: 205px;
   height: 45px;
   font-weight: 700;
   font-style: Bold;
-  font-size: 32px;
+  font-size: 22px;
   color: white;
+  white-space: nowrap;
+  text-shadow: 3px 3px 4px rgba(124, 35, 140, 0.8);
 }
 
 .list {
@@ -57,15 +60,13 @@
 }
 
 .btn {
-  font-family: 'Outfit', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: rgb(250, 250, 250);
-  width: 160px;
+  width: 149px;
   height: 56px;
-  padding: 8px;
-  gap: 8px;
+  padding: 8px 14px;
   border: 0;
   border-radius: 8px;
   background-color: rgba(124, 35, 140, 1);
