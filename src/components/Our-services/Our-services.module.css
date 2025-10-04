@@ -1,0 +1,112 @@
+.servicesSection {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ce3de8;
+  margin-bottom: 16px;
+}
+
+.mainTitle {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: -1.5%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.servicesList {
+  display: flex;
+  flex-direction: row;
+  gap: 38px;
+  margin-bottom: 48px;
+}
+
+.servicesItem {
+  background: -webkit-radial-gradient(64% 79% at 50% 50%, #7c238c 0%, #220a26 100%);
+  background: radial-gradient(64% 79% at 50% 50%, #7c238c 0%, #220a26 100%);
+  border-radius: 16px;
+  padding: 24px 26px;
+  max-width: 360px;
+  transition: transform 0.3s ease;
+}
+
+.servicesItem:hover,
+.servicesItem:focus {
+  transform: scale(1.1);
+}
+
+.itemTitle {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -1%;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.itemText {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -1%;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.itemImg {
+  border-radius: 16px;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.servicesFeaturesList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.servicesFeaturesListItem {
+  width: calc((100% - 48px) / 4);
+  border: 1px solid #7c238c;
+  border-radius: 89px;
+  background-color: transparent;
+  padding: 18px 42px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(124, 35, 140, 0.3);
+}
+
+.servicesFeaturesListText {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+}

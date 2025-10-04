@@ -13,7 +13,10 @@
   );
   filter: blur(0.4px);
   padding-top: 119px;
-  padding-bottom: 119px;
+  padding-bottom: 60px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .title {
