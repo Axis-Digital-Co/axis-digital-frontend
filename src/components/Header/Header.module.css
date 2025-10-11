@@ -9,10 +9,10 @@
   padding-bottom: 15px;
   width: 100%;
   border-radius: 10px;
+  max-width: 1440px;
 }
 
 .title {
-  font-family: 'Chaney Ultraextended', sans-serif;
   font-family: 'Chaney Ultraextended', sans-serif;
   width: 205px;
   height: 45px;

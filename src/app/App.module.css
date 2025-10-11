@@ -3,10 +3,12 @@
 @font-face {
   font-family: 'Chaney Ultraextended';
   src: url('../assets/fonts/chaney-ultraextended-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../assets/fonts/chaney-ultraextended-webfont.eot') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/fonts/chaney-ultraextended-webfont.woff2') format('woff2'), /* Современные браузеры */
-       url('../assets/fonts/chaney-ultraextended-webfont.woff') format('woff'),  /* Старые браузеры */
-       url('../assets//fonts/chaney-ultraextended-webfont.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('../assets/fonts/chaney-ultraextended-webfont.eot') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/chaney-ultraextended-webfont.woff2') format('woff2'),
+    /* Современные браузеры */ url('../assets/fonts/chaney-ultraextended-webfont.woff')
+      format('woff'),
+    /* Старые браузеры */ url('../assets//fonts/chaney-ultraextended-webfont.ttf')
+      format('truetype'); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -16,9 +18,8 @@
   max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Chaney Ultraextended';
+  font-family: 'Outfit', sans-serif;
 }
-
 
 .container {
   max-width: 320px;
