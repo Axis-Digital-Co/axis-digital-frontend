@@ -1,0 +1,103 @@
+.howWeWorkWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+}
+
+.sectionHowWeWork {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ce3de8;
+  margin-bottom: 16px;
+}
+
+.mainTitle {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: -1.5%;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 48px;
+  max-width: 606px;
+}
+
+.itemTitle {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: -1%;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  border: 1px solid #7c238c;
+  border-radius: 16px;
+  padding: 27px 43px;
+  width: 606px;
+  align-items: center;
+}
+
+.itemText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -1%;
+  color: #ffffff;
+}
+
+.block {
+  flex: 1;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.icon {
+  display: block;
+  padding: 7px;
+  justify-content: center;
+}
+
+.link {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: -1%;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+}
+
+.rightContainer {
+  position: sticky;
+  top: 20px;
+  flex: 1;
+  height: fit-content;
+}
