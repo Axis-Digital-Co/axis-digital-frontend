@@ -1,4 +1,10 @@
 import css from './Our-services.module.css';
+import figma from '../../assets/img/our-services/figma.jpg';
+import figma2x from '../../assets/img/our-services/figma@2x.jpg';
+import coding from '../../assets/img/our-services/coding.jpg';
+import coding2x from '../../assets/img/our-services/coding@2x.jpg';
+import marketing from '../../assets/img/our-services/marketing.jpg';
+import marketing2x from '../../assets/img/our-services/marketing@2x.jpg';
 
 export default function OurServices() {
   return (
@@ -14,8 +20,8 @@ export default function OurServices() {
               your business stand out.
             </p>
             <img
-              src="/public/img/our-services/figma.jpg"
-              srcSet="/public/img/our-services/figma@2x.jpg 2x"
+              src={figma}
+              srcSet={`${figma} 1x, ${figma2x} 2x`}
               alt="Design Studio"
               className={css.itemImg}
             />
@@ -27,8 +33,8 @@ export default function OurServices() {
               responsive to any device.
             </p>
             <img
-              src="/public/img/our-services/coding.jpg"
-              srcSet="/public/img/our-services/coding@2x.jpg 2x"
+              src={coding}
+              srcSet={`${coding} 1x, ${coding2x} 2x`}
               alt="Web Development"
               className={css.itemImg}
             />
@@ -40,8 +46,8 @@ export default function OurServices() {
               customers and grows steadily.
             </p>
             <img
-              src="/public/img/our-services/marketing.jpg"
-              srcSet="/public/img/our-services/marketing@2x.jpg 2x"
+              src={marketing}
+              srcSet={`${marketing} 1x, ${marketing2x} 2x`}
               alt="Marketing"
               className={css.itemImg}
             />
